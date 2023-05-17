@@ -1,24 +1,24 @@
-import { Avatar, Box, chakra, Flex, Icon, SimpleGrid, useColorModeValue, } from '@chakra-ui/react';
+import {Avatar, Box, chakra, Flex, Icon, SimpleGrid, useColorModeValue,} from '@chakra-ui/react';
 
 const testimonials = [
     {
-        name: 'Hardik Desai',
-        role: 'Fronted Web Developer',
+        name: 'Nazar Pagor',
+        role: 'Software Engineer',
         content:
             'A resume builder website is a web-based tool that allows users to create and customize a professional resume to their desired specifications. These websites typically provide templates for creating a resume.',
         avatar:
-            'https://avatars.githubusercontent.com/u/87645745?v=4',
+            'https://lh3.googleusercontent.com/a/AGNmyxZEtfhdp1Mw_qIR_d6Q5UfVi_bMbW4UnRiVbEnEvw=s83-c-mo'
     }
 ];
 
 
 function TestimonialCard(props) {
-    const { name, role, content, avatar } = props;
+    const {name, role, content, avatar} = props;
     return (
         <Flex
             boxShadow={'lg'}
             maxW={'640px'}
-            direction={{ base: 'column-reverse', md: 'row' }}
+            direction={{base: 'column-reverse', md: 'row'}}
             width={'full'}
             rounded={'xl'}
             p={10}
@@ -61,7 +61,8 @@ function TestimonialCard(props) {
                     pb={4}>
                     {content}
                 </chakra.p>
-                <chakra.p fontFamily={'Work Sans'} color={useColorModeValue('gray.700', 'gray.50')} fontWeight={'bold'} fontSize={14}>
+                <chakra.p fontFamily={'Inter'} color={useColorModeValue('gray.700', 'gray.50')} fontWeight={'bold'}
+                          fontSize={14}>
                     {name}
                     <chakra.span
                         fontFamily={'Inter'}
@@ -74,10 +75,10 @@ function TestimonialCard(props) {
             </Flex>
             <Avatar
                 src={avatar}
-                height={'80px'}
-                width={'80px'}
+                height={'100px'}
+                width={'100px'}
                 alignSelf={'center'}
-                m={{ base: '0 0 35px 0', md: '0 0 0 50px' }}
+                m={{base: '0 0 35px 0', md: '0 0 0 10px'}}
             />
         </Flex>
     );
@@ -91,7 +92,7 @@ export default function About() {
             justifyContent={'center'}
             direction={'column'}
             width={'full'}>
-            <Box width={{ base: 'full', sm: 'lg', lg: 'xl' }} margin={'auto'}>
+            <Box width={{base: 'full', sm: 'lg', lg: 'xl'}} margin={'auto'}>
                 <chakra.h3
                     fontFamily={'Work Sans'}
                     fontWeight={'bold'}
@@ -118,12 +119,12 @@ export default function About() {
                 </chakra.h2>
             </Box>
             <SimpleGrid
-                columns={{ base: 1, xl: 1 }}
+                columns={{base: 1, xl: 1}}
                 spacing={'20'}
                 mt={16}
                 mx={'auto'}>
                 {testimonials.map((cardInfo, index) => (
-                    <TestimonialCard {...cardInfo} key={index} index={index} />
+                    <TestimonialCard {...cardInfo} key={index} index={index}/>
                 ))}
             </SimpleGrid>
             <Box>
