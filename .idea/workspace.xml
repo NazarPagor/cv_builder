@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d5b91b1-b495-4d91-a8f2-9d3ec0d83125" name="Changes" comment="Add correct About information">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Context/ResumeState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Context/ResumeState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/BuilderArea.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/BuilderArea.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Home/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Home/Home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +43,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Programs\\apps\\WebStorm\\ch-0\\223.8214.51\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -47,7 +56,13 @@
       <option name="presentableId" value="Default" />
       <updated>1684335689094</updated>
       <workItem from="1684335690209" duration="1370000" />
-      <workItem from="1684337115917" duration="3003000" />
+      <workItem from="1684337115917" duration="3700000" />
+      <workItem from="1684401144589" duration="25000" />
+      <workItem from="1685970826692" duration="11444000" />
+      <workItem from="1685985748934" duration="869000" />
+      <workItem from="1686035465353" duration="21000" />
+      <workItem from="1686251571494" duration="22000" />
+      <workItem from="1686252432897" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="Add correct About information">
       <created>1684340186189</created>
@@ -56,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684340186189</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add correct About information">
+      <created>1684340213984</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684340213984</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -16,13 +16,10 @@ function TestimonialCard(props) {
     const {name, role, content, avatar} = props;
     return (
         <Flex
-            boxShadow={'lg'}
-            maxW={'640px'}
+            boxShadow={'lg'} maxW={'640px'}
             direction={{base: 'column-reverse', md: 'row'}}
-            width={'full'}
-            rounded={'xl'}
-            p={10}
-            justifyContent={'space-between'}
+            width={'full'} rounded={'xl'}
+            p={10} justifyContent={'space-between'}
             position={'relative'}
             bg={useColorModeValue('white', 'gray.800')}
             _after={{
@@ -50,14 +47,11 @@ function TestimonialCard(props) {
                 left: 0,
             }}>
             <Flex
-                direction={'column'}
-                textAlign={'left'}
+                direction={'column'} textAlign={'left'}
                 justifyContent={'space-between'}>
                 <chakra.p
                     color={useColorModeValue('gray.500', 'gray.50')}
-                    fontFamily={'Inter'}
-                    fontWeight={'medium'}
-                    fontSize={'15px'}
+                    fontFamily={'Inter'} fontWeight={'medium'} fontSize={'15px'}
                     pb={4}>
                     {content}
                 </chakra.p>
@@ -74,10 +68,7 @@ function TestimonialCard(props) {
                 </chakra.p>
             </Flex>
             <Avatar
-                src={avatar}
-                height={'100px'}
-                width={'100px'}
-                alignSelf={'center'}
+                src={avatar} height={'100px'} width={'100px'} alignSelf={'center'}
                 m={{base: '0 0 35px 0', md: '0 0 0 10px'}}
             />
         </Flex>

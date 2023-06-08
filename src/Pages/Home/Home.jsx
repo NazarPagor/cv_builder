@@ -15,16 +15,15 @@ const Home = () => {
                 !showComponent && <Introduction />
             }
             {
-                (showComponent && currentTheme === 'Theme1') && <BuilderArea theme={<Theme1 componentRef={componentRef} themeData={themeData} />} />
+                (showComponent && currentTheme === 'Theme1') &&
+                <BuilderArea theme={<Theme1 componentRef={componentRef} themeData={themeData} />}/>
             }
             {
-                (showComponent && currentTheme === 'Theme2') && <BuilderArea theme={<Theme2 componentRef={componentRef} themeData={themeData} />} />
+                (showComponent && currentTheme === 'Theme2') &&
+                <BuilderArea theme={<Theme2 componentRef={componentRef} themeData={themeData} />} />
             }
             {
                 (showComponent && currentTheme === 'Theme3') && <ErrorPage />
-            }
-            {
-                (showComponent && currentTheme === 'Theme4') && <ErrorPage />
             }
         </>
     )

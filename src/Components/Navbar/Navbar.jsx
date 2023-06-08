@@ -27,14 +27,13 @@ export default function Navbar() {
                             <img style={{height: '44px'}} className='logo' src={logo} alt="logo"/>
                         </Link>
                     </Box>
-
                     <HStack spacing={8} alignItems={'center'}>
                         <HStack
                             as={'nav'}
                             spacing={4}
                             display={{base: 'none', md: 'flex'}}>
                             <a onClick={() => window.location.reload()}
-                                       href={'/'}>Home </a>
+                               href={'/'}>Home </a>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{textDecoration: 'none', bg: 'gray.200'}}
                                        to={'/about'}> About</ReachLink>
                         </HStack>
@@ -42,7 +41,6 @@ export default function Navbar() {
                             {colorMode === 'light' ? <MoonIcon/> : <SunIcon/>}
                         </Button>
                     </HStack>
-
                     <IconButton
                         size={'md'}
                         icon={isOpen ? <CloseIcon/> : <HamburgerIcon/>}
@@ -50,9 +48,7 @@ export default function Navbar() {
                         display={{md: 'none'}}
                         onClick={isOpen ? onClose : onOpen}
                     />
-
                 </Flex>
-
                 {
                     isOpen ? (
                         <Box pb={4} display={{md: 'none'}}>
